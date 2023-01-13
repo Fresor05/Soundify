@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     font-family: "Lato", sans-serif;
@@ -43,13 +44,13 @@ h2{
     bottom: 50px;
     position: relative;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    background-color: #40B0A6;
+    background-color: white;
     width: 400px;
     height: 33px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: 2px solid #294A6D;
     z-index: 1;
+    
     }
 img{
     border: 2px solid white;

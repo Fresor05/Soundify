@@ -32,7 +32,12 @@ body{
   .sidenav a:hover {
     color: #f1f1f1;
   }
-
+.sidenav img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 100px;
+  }
   #Eksempler{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -52,7 +57,7 @@ h2{
     z-index: 1;
     
     }
-img{
+#Eksempler img{
     border: 2px solid white;
     border-radius: 10px;
     position: relative;

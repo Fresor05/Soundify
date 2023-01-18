@@ -92,6 +92,16 @@ h3{
   font-size: 25px;
 }
 
+h4{
+  text-align: center;
+  background: rgba(0, 15, 33, 1);
+  color: white;
+  width: 20%;
+  margin-left: 170px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
 .spiller{
   color: white;
   font-size: 40px;

@@ -2,29 +2,35 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="Bilder/Logo.png"> 
+    <link rel="icon" type="image/x-icon" href="../Bilder/logo.png"> 
     <link   rel = "stylesheet" type="text/css" href="stil.css">
-    <script src="script.js"></script>
+    <script src="../kode/script.js"></script>
+    
     <title>Escuchify sangspiller</title>
 </head>
 <body>
     <div class="sidenav">
-        <img src="Bilder/logo.png" alt="Logoen til escuchify">
+        <img src="../Bilder/logo.png" alt="Logoen til escuchify">
         <a href="index.html">Hjem</a>
         <a href="Spillelister.html">Spillelister</a>
         <a href="#Om oss">Om oss</a>
         <a href="sangspiller.html">Sangspiller</a>
+        <br><br><br>
+        <button id = "ListeButton">Fredriks liste</button><br><br>
+        <button id = "GymButton">The Gym</button>
     </div>
-
-    <div class="spiller">Spiller x av y</div>
-    <div class="cover"></div>
-    <div class="navn">Navn</div>
-    <div class="artist">Artist</div>
-
-    <div id="knapper">
-        <button id="forrige_sang">&laquo</button>
-        <button id="spill"></button>
-        <button id="neste_sang">&raquo</button>
+    <div id = "boks">
+        <div class="spiller">Spiller</div>
+        <div class="cover"></div>
+        <div class="navn">Navn</div>
+        <div class="artist">Artist</div>
+   
+        <div id="knapper">
+            <button id="forrige_sang">&laquo</button>
+            <button id="spill"></button>
+            <button id ="stopp"></button>
+            <button id="neste_sang">&raquo</button>
+        </div> 
     </div>
 </body>
 </html>

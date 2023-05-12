@@ -38,6 +38,15 @@ body{
     border-radius: 100px;
     padding-bottom: 20px;
   }
+  .sidenav button{
+    font-size: 25px;
+    padding: 6px 8px 6px 16px;
+    color: #818181;
+
+  }
+  .sidenav button:hover{
+    color: white;
+  }
 
   .Eksempler{
     display: grid;
@@ -92,16 +101,6 @@ h3{
   font-size: 25px;
 }
 
-h4{
-  text-align: center;
-  background: rgba(0, 15, 33, 1);
-  color: white;
-  width: 20%;
-  margin-left: 170px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-}
-
 .spiller{
   color: white;
   font-size: 40px;
@@ -117,6 +116,7 @@ h4{
   border: solid rgba(244, 186, 243, 0.79);
   margin-top: 30px;
 }
+
 
 .navn{
   color: white;
@@ -142,13 +142,31 @@ button{
   width: 4%;
 	font-size: 5vw;
   color: white;
-  background-color: rgba(0, 15, 33, 1);
+  background-color: rgba(0, 15, 33, 0);
   border: none;
+}
+
+#boks{
+  border: solid pink;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: rgba(0, 15, 33, 0.5);
 }
 
 #neste_sang{
   margin-left: 100px;
 }
+
+#stopp {
+  width: 74px;
+  height: 50px;
+  border-style: solid;
+  border-style: double;
+  border-width: 0px 0px 0px 37px;
+  border-color: #ffffff;
+  margin-left: 40px;
+}
+
 
 #spill{
   width: 0; 
@@ -156,7 +174,9 @@ button{
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
   border-left: 40px solid white;
-
+  position: relative;
+  top: -20px;
+  left: 40px;
 }
 
 #forrige_sang{
